@@ -1,0 +1,27 @@
+{
+  "name": "graphql-first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "@graphql-tools/schema": "^10.0.0",
+    "apollo-server": "^3.12.0",
+    "apollo-server-core": "^3.12.0",
+    "blueimp-md5": "^2.19.0",
+    "crypto-js": "^4.1.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.14.0",
+    "graphql-yoga": "^4.0.3",
+    "ws": "^8.13.0"
+  }
+}
